@@ -1,7 +1,13 @@
 import React from "react";
+import Data from "./Data";
+import Header from "./components/Header";
 
-const RahulCloud = () => {
-  return <div>rahulsaini</div>;
-};
+function RahulCloud() {
+  return (
+    <div>
+      <Header Data={Data} />
+    </div>
+  );
+}
 
 export default RahulCloud;
