@@ -63,49 +63,44 @@ let resumeData = {
   skillsDescription: "My skills are : ",
   skills: [
     {
-      skillname: "C Language",
+      skillname: "C",
+      Marks: "8",
     },
     {
-      skillname: "C++ Language",
+      skillname: "C++ ",
+      Marks: "8.5",
     },
     {
       skillname: "OOP's",
+      Marks: "7",
     },
     {
       skillname: "DSA",
+      Marks: "6.5",
     },
     {
       skillname: "HTML5",
+      Marks: "8.5",
     },
     {
       skillname: "CSS3",
+      Marks: "8",
     },
     {
       skillname: "JavaScript",
+      Marks: "7",
     },
     {
       skillname: "Typescript",
+      Marks: "7",
     },
     {
       skillname: "Reactjs",
+      Marks: "7.5",
     },
     {
       skillname: "Node JS",
-    },
-    {
-      skillname: "NVM",
-    },
-    {
-      skillname: "JSON",
-    },
-    {
-      skillname: "Rest API",
-    },
-    {
-      skillname: "HTTp/HTTPs",
-    },
-    {
-      skillname: "Jira",
+      Marks: "6",
     },
   ],
   projects: [

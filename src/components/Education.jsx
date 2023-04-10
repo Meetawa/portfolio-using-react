@@ -67,23 +67,24 @@ const Education = ({ Data }) => {
             <span>Skills</span>
           </h1>
         </div>
-
         <div className="nine columns main-col">
           <p>{Data.skillsDescription}</p>
-          <div className="bars">
-            <ul className="skills">
+          <div className="Container">
+            <div className="skills">
               {Data.skills &&
                 Data.skills.map((item) => {
                   return (
-                    <li>
-                      <span
-                        className={`bar-expand ${item.skillname.toLowerCase()}`}
-                      ></span>
-                      <em>{item.skillname}</em>
-                    </li>
+                    <>
+                      <h3>{item.skillname}</h3>
+                      <div className="progress-bar">
+                        <div className="html">
+                          <span>{item.Marks}</span>
+                        </div>
+                      </div>
+                    </>
                   );
                 })}
-            </ul>
+            </div>
           </div>
         </div>
       </div>

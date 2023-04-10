@@ -61,3 +61,34 @@
 /* 
   Skills
 */
+
+.progress-bar {
+  background: #959595;
+  width: 600px;
+  height: 10px;
+  border-radius: 5px;
+}
+
+.progress-bar div {
+  height: 10px;
+  border-radius: 5px;
+  width: 60%;
+  background: #11abb0;
+}
+.progress-bar div span {
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  background: #fff;
+  float: right;
+  margin-top: -15px;
+  margin-right: -20px;
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.html span {
+  border: #11abb0;
+  animation: html 2s linear forwards;
+}
