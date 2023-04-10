@@ -30,54 +30,104 @@ let resumeData = {
   Email: "rahulmeetawa@gmail.com",
   education: [
     {
-      UniversityName: "B K Birla Institute of Engineering & Technology, Pilani",
-      specialization: "Some specialization",
+      Institution: "B K Birla Institute of Engineering & Technology, Pilani",
+      Percentage: "8.9 CGPA(Till 5th Sem)",
       MonthOfPassing: "Aug",
       YearOfPassing: "2023",
-      Achievements: "Some Achievements",
+      Study: "Bachelor of Technology(Computer Science)",
+    },
+    {
+      Institution: "Sanskar Science Academy, Gudha Gorji",
+      Percentage: "72.40 % (PCM)",
+      MonthOfPassing: "Jun",
+      YearOfPassing: "2019",
+      Study: "Senior Secondary (12th)",
+    },
+    {
+      Institution: "Cambridge Academy School,Babai",
+      Percentage: "75.17 %",
+      MonthOfPassing: "Jun",
+      YearOfPassing: "2017",
+      Study: "Secondary School (10th)",
     },
   ],
   work: [
     {
-      CompanyName: "Some Company",
-      specialization: "Some specialization",
-      MonthOfLeaving: "Jan",
-      YearOfLeaving: "2018",
-      Achievements: "Some Achievements",
+      CompanyName: "Optimizory technologies Pvt Ltd",
+      specialization: "Software Developer",
+      MonthOfLeaving: "April",
+      YearOfLeaving: "2023",
+      Place: "Remote",
     },
   ],
-  skillsDescription: "Your skills here",
+  skillsDescription: "My skills are : ",
   skills: [
+    {
+      skillname: "C Language",
+    },
+    {
+      skillname: "C++ Language",
+    },
+    {
+      skillname: "OOP's",
+    },
+    {
+      skillname: "DSA",
+    },
     {
       skillname: "HTML5",
     },
     {
-      skillname: "CSS",
+      skillname: "CSS3",
+    },
+    {
+      skillname: "JavaScript",
+    },
+    {
+      skillname: "Typescript",
     },
     {
       skillname: "Reactjs",
     },
+    {
+      skillname: "Node JS",
+    },
+    {
+      skillname: "NVM",
+    },
+    {
+      skillname: "JSON",
+    },
+    {
+      skillname: "Rest API",
+    },
+    {
+      skillname: "HTTp/HTTPs",
+    },
+    {
+      skillname: "Jira",
+    },
   ],
-  portfolio: [
+  projects: [
     {
-      name: "project1",
-      description: "mobileapp",
-      imgurl: "images/portfolio/phone.jpg",
+      title: "Freon Browser",
+      techTitle: "firefox",
+      description:
+        "A Firefox fork used on my personal devices. Always compiled on Rust nightly.",
+      repoLink: "https://github.com/splatboydev/Freon-Browser",
     },
     {
-      name: "project2",
-      description: "mobileapp",
-      imgurl: "images/portfolio/project.jpg",
+      title: "Gluon",
+      techTitle: "Firefox tool",
+      description:
+        "Gluon is a Firefox build tool to easily develop your own Firefox forks. I frequently contribute to the development of gluon.",
+      repoLink: "https://github.com/pulse-browser/gluon",
     },
     {
-      name: "project3",
-      description: "mobileapp",
-      imgurl: "images/portfolio/project2.png",
-    },
-    {
-      name: "project4",
-      description: "mobileapp",
-      imgurl: "images/portfolio/phone.jpg",
+      title: "Portfolio",
+      techTitle: "Web (Next, TSX)",
+      description: "My portfolio website.",
+      repoLink: "https://github.com/splatboydev/Portfolio",
     },
   ],
 };

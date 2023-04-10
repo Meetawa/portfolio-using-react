@@ -1,5 +1,5 @@
 import React from "react";
-
+import "../styles/Education.css";
 const Education = ({ Data }) => {
   return (
     <section id="resume">
@@ -16,15 +16,15 @@ const Education = ({ Data }) => {
               return (
                 <div className="row item">
                   <div className="twelve columns">
-                    <h3>{item.UniversityName}</h3>
+                    <h3>{item.Institution}</h3>
                     <p className="info">
-                      {item.specialization}
+                      {item.Study}
                       <span>&bull;</span>{" "}
                       <em className="date">
                         {item.MonthOfPassing} {item.YearOfPassing}
                       </em>
                     </p>
-                    <p>{item.Achievements}</p>
+                    <h6>{item.Percentage}</h6>
                   </div>
                 </div>
               );
@@ -53,7 +53,7 @@ const Education = ({ Data }) => {
                         {item.MonthOfLeaving} {item.YearOfLeaving}
                       </em>
                     </p>
-                    <p>{item.Achievements}</p>
+                    <p>{item.Place}</p>
                   </div>
                 </div>
               );
@@ -70,7 +70,6 @@ const Education = ({ Data }) => {
 
         <div className="nine columns main-col">
           <p>{Data.skillsDescription}</p>
-
           <div className="bars">
             <ul className="skills">
               {Data.skills &&

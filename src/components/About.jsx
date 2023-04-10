@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/About.css";
+import "../styles/About.css";
 const About = ({ Data }) => {
   return (
     <section id="about">
