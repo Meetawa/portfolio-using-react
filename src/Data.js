@@ -25,9 +25,9 @@ let resumeData = {
     },
   ],
   aboutme:
-    "I am currently a pre-final year student at B K Birla Institute of Engineering & Technology and pursuing my B.Tech from here. I am a self taught Web Developer,I believe that to be successful in life.",
-  address: "India",
-  website: "https://github.com/rahulmeetawa",
+    "I am currently a pre-final year student at B K Birla Institute of Engineering & Technology,Pilani and pursuing my B.Tech from here. I am a self taught Web Developer,I believe that to be successful in life.",
+  address: "JhunJhunu,Rajasthan,India",
+  Email: "rahulmeetawa@gmail.com",
   education: [
     {
       UniversityName: "B K Birla Institute of Engineering & Technology, Pilani",
@@ -78,16 +78,6 @@ let resumeData = {
       name: "project4",
       description: "mobileapp",
       imgurl: "images/portfolio/phone.jpg",
-    },
-  ],
-  testimonials: [
-    {
-      description: "This is a sample testimonial",
-      name: "Some technical guy",
-    },
-    {
-      description: "This is a sample testimonial",
-      name: "Some technical guy",
     },
   ],
 };
