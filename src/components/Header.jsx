@@ -1,31 +1,74 @@
 import React from "react";
-import "../css/Style.css";
-import myImage from "../assets/images/rahul.jpg";
 
 const Header = ({ Data }) => {
-  const imageUrl = `url(${myImage})`;
-
   return (
-    <header>
-      <div className="container">
-        <div className="row">
-          <div className="col-md-12">
-            <div className="colorlib-navbar-brand">
-              <a className="colorlib-logo" href="index.html">
-                <span
-                  className="logo-img"
-                  style={{ backgroundImage: imageUrl }}
-                ></span>
-                {Data.name}
+    <>
+      <header id="home">
+        <nav id="nav-wrap">
+          <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
+            Show navigation
+          </a>
+          <a className="mobile-btn" href="#" title="Hide navigation">
+            Hide navigation
+          </a>
+          <ul id="nav" className="nav">
+            <li className="current">
+              <a className="smoothscroll" href="#home">
+                Home
               </a>
-            </div>
-            <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle">
-              <i></i>
-            </a>
+            </li>
+            <li>
+              <a className="smoothscroll" href="#about">
+                About
+              </a>
+            </li>
+            <li>
+              <a className="smoothscroll" href="#resume">
+                Resume
+              </a>
+            </li>
+            <li>
+              <a className="smoothscroll" href="#portfolio">
+                Works
+              </a>
+            </li>
+            <li>
+              <a className="smoothscroll" href="#contact">
+                Contact
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <div className="row banner">
+          <div className="banner-text">
+            <h1 className="responsive-headline">I am {Data.name}.</h1>
+            <h3 style={{ color: "#fff", fontFamily: "sans-serif " }}>
+              I am a {Data.role}.{Data.roleDescription}
+            </h3>
+            <hr />
+            <ul className="social">
+              {Data.socialLinks &&
+                Data.socialLinks.map((item) => {
+                  return (
+                    <li key={item.name}>
+                      <a href={item.url} target="_blank">
+                        <i className={item.className}></i>
+                      </a>
+                    </li>
+                  );
+                })}
+            </ul>
           </div>
         </div>
-      </div>
-    </header>
+
+        <p className="scrolldown">
+          <a className="smoothscroll" href="#about">
+            <i className="icon-down-circle"></i>
+          </a>
+        </p>
+      </header>
+    </>
   );
 };
 
