@@ -3,6 +3,7 @@ import "../styles/Education.css";
 const Education = ({ Data }) => {
   return (
     <section id="resume">
+      <div className="row work" />
       <div className="row education">
         <div className="three columns header-col">
           <h1>
@@ -91,6 +92,7 @@ const Education = ({ Data }) => {
           </div>
         </div>
       </div>
+      <div className="row work"></div>
     </section>
   );
 };
