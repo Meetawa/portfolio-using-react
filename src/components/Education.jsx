@@ -68,7 +68,6 @@ const Education = ({ Data }) => {
           </h1>
         </div>
         <div className="nine columns main-col">
-          <p>{Data.skillsDescription}</p>
           <div className="Container">
             <div className="skills">
               {Data.skills &&
@@ -76,11 +75,12 @@ const Education = ({ Data }) => {
                   return (
                     <>
                       <h3>{item.skillname}</h3>
-                      <div
-                        className="progress-bar"
-                        style={{ width: `${item.Percentage}%` }}
-                      >
-                        <div className="html">
+                      <div className="progress-bar">
+                        <div
+                          className="html"
+                          title={`${item.Percentage}%`}
+                          style={{ width: `${item.Percentage}%` }}
+                        >
                           <span></span>
                         </div>
                       </div>

@@ -72,7 +72,7 @@
 .progress-bar div {
   height: 10px;
   border-radius: 5px;
-  width: 60%;
+  width: 0%;
   background: #11abb0;
 }
 .progress-bar div span {

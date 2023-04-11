@@ -64,43 +64,43 @@ let resumeData = {
   skills: [
     {
       skillname: "C",
-      Percentage: "80%",
+      Percentage: "80",
     },
     {
       skillname: "C++ ",
-      Percentage: "85%",
+      Percentage: "85",
     },
     {
       skillname: "OOP's",
-      Percentage: "70%",
+      Percentage: "70",
     },
     {
       skillname: "DSA",
-      Percentage: "65%",
+      Percentage: "65",
     },
     {
       skillname: "HTML5",
-      Percentage: "85%",
+      Percentage: "85",
     },
     {
       skillname: "CSS3",
-      Percentage: "80%",
+      Percentage: "80",
     },
     {
       skillname: "JavaScript",
-      Percentage: "70%",
+      Percentage: "70",
     },
     {
       skillname: "Typescript",
-      Percentage: "70%",
+      Percentage: "70",
     },
     {
       skillname: "Reactjs",
-      Percentage: "75%",
+      Percentage: "75",
     },
     {
       skillname: "Node JS",
-      Percentage: "60%",
+      Percentage: "60",
     },
   ],
   projects: [
