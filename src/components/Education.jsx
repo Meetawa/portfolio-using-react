@@ -76,9 +76,12 @@ const Education = ({ Data }) => {
                   return (
                     <>
                       <h3>{item.skillname}</h3>
-                      <div className="progress-bar">
+                      <div
+                        className="progress-bar"
+                        style={{ width: `${item.Percentage}%` }}
+                      >
                         <div className="html">
-                          <span>{item.Marks}</span>
+                          <span></span>
                         </div>
                       </div>
                     </>
