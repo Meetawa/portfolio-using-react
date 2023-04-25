@@ -49,6 +49,9 @@ function Rahul() {
 
   return (
     <div className="App">
+      <div id="stars"></div>
+      <div id="stars2"></div>
+      <div id="stars3"></div>
       <motion.div className="cursor" variants={variants} animate="default" />
       <Router>
         <Preloader load={load} />
