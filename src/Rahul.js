@@ -1,4 +1,4 @@
-import "./App.css";
+import "./Rahul.css";
 import { useEffect, useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Preloader from "../src/components/Pre";
@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 import Project from "./pages/Project";
 import Contact from "./pages/Contact";
 
-function RahulCloud() {
+function Rahul() {
   const [load, upadateLoad] = useState(true);
   const [mousePosition, setMousePosition] = useState({
     x: 0,
@@ -65,4 +65,4 @@ function RahulCloud() {
   );
 }
 
-export default RahulCloud;
+export default Rahul;
