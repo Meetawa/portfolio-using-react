@@ -92,8 +92,8 @@
   margin-left: 30px;
   border-radius: 25px;
   padding: 0 25px;
-  background-color: #4158d0;
-  background-image: linear-gradient(43deg, #4158d0 0%, #c850c0 100%);
+  background-color: #29c1b4;
+  background-image: linear-gradient(43deg, #4158d0 0%, #29c1b4 100%);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 10px;
   border: none;
 }
@@ -114,8 +114,8 @@
     background-image: linear-gradient(
       43deg,
       #4158d0 0%,
-      #c850c0 0%,
-      #ffcc70 100%
+      #29c1b4 0%,
+      #2cacba 100%
     );
   }
   .nav-link {
@@ -141,8 +141,8 @@
   background-image: linear-gradient(
     43deg,
     #4158d0 0%,
-    #c850c0 46%,
-    #ffcc70 100%
+    #29c1b4 0%,
+    #4158d0 100%
   );
 }
 .row {
@@ -209,8 +209,8 @@
 .imagedeveloper {
   margin-top: 50px;
   max-width: 550px;
-  height: 400px;
-  background-image: url(../Assets/Web-designer-1024x821.webp);
+  height: 500px;
+  background-image: url(../Assets/homw.png);
   background-size: cover;
   background-position: center;
 }
@@ -272,8 +272,8 @@
   background-image: linear-gradient(
     43deg,
     #4158d0 0%,
-    #c850c0 46%,
-    #ffcc70 100%
+    #2f37a3 10%,
+    #29c1b4 100%
   );
   padding-top: 110px;
 }
@@ -325,7 +325,7 @@
 .webimage {
   max-width: 500px;
   height: 350px;
-  background-image: url(../Assets/web-removebg-preview.png);
+  background-image: url(../Assets/about.png);
   background-size: cover;
   background-position: center;
 }
@@ -349,8 +349,8 @@
   background-image: linear-gradient(
     43deg,
     #4158d0 0%,
-    #c850c0 46%,
-    #ffcc70 100%
+    #29c1b4 46%,
+    #3f706d 100%
   );
 }
 .project-section {
@@ -404,9 +404,10 @@
 
 .btn-primary:hover {
   color: #191919 !important;
-  background-color: #c850c0 !important;
-  border-color: #c850c0 !important;
+  background-color: #4158d0 !important;
+  border-color: white !important;
 }
+
 .btn:focus {
   outline: none !important;
   box-shadow: none !important;
@@ -426,8 +427,8 @@
   background-image: linear-gradient(
     43deg,
     #4158d0 0%,
-    #c850c0 46%,
-    #ffcc70 100%
+    #29c1b4 46%,
+    #3f706d 100%
   );
   padding-top: 110px;
 }
