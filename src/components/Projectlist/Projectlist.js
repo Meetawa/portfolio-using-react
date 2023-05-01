@@ -1,13 +1,13 @@
-import React from 'react'
-import '../../pages/style.css';
+import React from "react";
+import "../../pages/style.css";
 import ProjectCard from "./ProjectCard";
-import { Container, Row, Col } from 'react-bootstrap'
-import useradminpanel from '../../Assets/Admin-Panel-Dashboard.png'
-import olximage from '../../Assets/olx-clone image.png'
-import netfliximage from '../../Assets/React-App-netflix-clone.png'
-import gridlinesbuilders from '../../Assets/Gridlinesbuilders.png'
-import charlespizza from '../../Assets/Charlestown-Pizza.png'
-import todolist from '../../Assets/todolist.png'
+import { Container, Row, Col } from "react-bootstrap";
+import findgithubuser from "../../Assets/Find-github-user.png";
+import jokesbox from "../../Assets/jokes.png";
+import Moviesimage from "../../Assets/Movies-app.png";
+import portfolio from "../../Assets/porfolio.png";
+import color from "../../Assets/color.png";
+import Spotify from "../../Assets/spotify.png";
 
 function Projectlist() {
   return (
@@ -17,68 +17,67 @@ function Projectlist() {
           <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={useradminpanel}
+                imgPath={findgithubuser}
                 isBlog={false}
-                title="Dashboard Panel"
-                description="User Admin Dashboard created with React js, Material UI, Nivo Charts, Formik, Yup, FullCalendar, and Data Grid to build this entire application. This application consists of Light and Dark Mode, four different Charts, three different Data Table Pages, FAQ Page, Form Page, and Calendar Integration."
-                ghLink="https://rahul-dashboard-pannel.netlify.app"
+                title="find-github-user"
+                description="In this project we can finding github user details using github username ."
+                ghLink="https://meetawa.github.io/find-github-user/"
               />
             </Col>
 
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={olximage}
+                imgPath={jokesbox}
                 isBlog={false}
-                title="Olx-Clone"
-                description="Olx-clone builds with react js. using firebase as a backend and deploying in firebase. Olx-Clone is a potential classified advertisement website that categorizes objects in a user-friendly manner & displays them as advertisements.. Classifieds can be posted that involve selling, and buying using React-router, context, react hooks."
-                ghLink="https://olx-clone-rahul.netlify.app/"
+                title="jokes-box"
+                description="This project is a simplified front-end JokesBox."
+                ghLink="https://meetawa.github.io/jokes-box/"
               />
             </Col>
 
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={netfliximage}
+                imgPath={Moviesimage}
                 isBlog={false}
-                title="Netflix-Clone"
-                description="This project is a simplified front-end clone of Netflix. It was created with React js. It uses TMDB (The Movie Data Base ) API and uses the Axios tool. Users can click movie images with embedded YouTube trailers or related videos about the movie."
-                ghLink="https://react-rahul-netflix-clone.netlify.app/"
+                title="movie-information-app"
+                description="This project is a simplified front-end movie-information-app.This Web-App is gives the information of movies and also showing rating of movies "
+                ghLink="https://meetawa.github.io/movie-information-app/"
               />
             </Col>
 
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={gridlinesbuilders}
+                imgPath={portfolio}
                 isBlog={false}
-                title="Grid Line Builders"
-                description="Grid line builders is a static webpage built with HTML, CSS, and JavaScript. Users can see images of their work and contact information that helps to connect the home builders through a webpage. webpage builds responsive to multiple sizes of devices."
-                ghLink="https://gridlinesbuilders.in/"
+                title="Portfolio"
+                description="simple personal site using html,css, javascript"
+                ghLink="https://meetawa.github.io/"
               />
             </Col>
 
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={charlespizza}
+                imgPath={color}
                 isBlog={false}
-                title="Charlestown Pizza"
-                description="Charlestown pizza is a static website completely build with bootstrap with fully responsive."
-                ghLink="https://rahulvijay81.github.io/Pizzastore-bootstrap/"
+                title="Color-Box"
+                description="create a Color-Box App using ReactJS."
+                ghLink="https://meetawa-color-box.netlify.app/"
               />
             </Col>
 
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={todolist}
+                imgPath={Spotify}
                 isBlog={false}
-                title="To Do List"
-                description=" To-Do App that build will allow a user to add a task to a list of to-do items. Once the task is added, the user will be able to delete it as completed once it has done."
-                ghLink="https://todolist-rahul81.netlify.app/"
-
+                title="Spotify-Clone"
+                description="It is clone of spotify which complete online music platform , it made by html,css and js(javascript)."
+                ghLink="https://meetawa.github.io/spotify-clone/"
               />
             </Col>
           </Row>
         </Container>
       </Container>
     </div>
-  )
+  );
 }
-export default Projectlist
+export default Projectlist;
