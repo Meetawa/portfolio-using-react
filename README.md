@@ -20,10 +20,10 @@ Web-Page:https://meetawa-react-portfolio.netlify.app/
 
 ### Mobile DEMO
 
-![Alt text](https://github.com/Meetawa/projects-photos/blob/master/portfolio-using-react/RS-5.png)
-![Alt text](https://github.com/Meetawa/projects-photos/blob/master/portfolio-using-react/RS-6.png)
-![Alt text](https://github.com/Meetawa/projects-photos/blob/master/portfolio-using-react/RS-7.png)
-![Alt text](https://github.com/Meetawa/projects-photos/blob/master/portfolio-using-react/RS-8.png)
+![Alt text](https://github.com/Meetawa/projects-photos/blob/master/portfolio-using-react/RS-5.jpg)
+![Alt text](https://github.com/Meetawa/projects-photos/blob/master/portfolio-using-react/RS-6.jpg)
+![Alt text](https://github.com/Meetawa/projects-photos/blob/master/portfolio-using-react/RS-7.jpg)
+![Alt text](https://github.com/Meetawa/projects-photos/blob/master/portfolio-using-react/RS-8.jpg)
 
 ---
 
